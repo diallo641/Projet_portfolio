@@ -37,3 +37,58 @@ nav a:hover {
   font-weight: bold;
   
 }
+
+/*page index */
+.icone{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.a_propos i {
+  font-size: 25px;
+  color: black; 
+}
+.icone span{
+  color: #007BFF;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenu_a_propos{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.contenu_a_propos img{
+  height: 400px;
+  width:  600px;  
+}
+.contenu_a_propos span{
+  color: #007BFF;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.experience-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.exp-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exp-item strong {
+  font-size: 1.5rem;
+  color: #007BFF;
+}
+
+.exp-item span {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  text-align: center;
+}
+
